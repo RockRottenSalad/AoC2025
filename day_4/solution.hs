@@ -47,5 +47,9 @@ part2 m = aux 0 m
 main :: IO()
 main = do
     input <- readFile inputFile >>= \input -> return $ parse input
+
+    putStr "Part 1: "
     print $ part1 input
+
+    putStr "Part 2: "
     print $ part2 input
