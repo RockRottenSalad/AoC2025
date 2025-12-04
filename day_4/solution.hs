@@ -1,6 +1,5 @@
 module Main where
 
-import Data.Maybe (isJust)
 import qualified Data.Set as S
 
 inputFile = "input.txt" :: String
